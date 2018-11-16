@@ -20,7 +20,7 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-const prefix = "D";
+const prefix = "KsOmk";
 /////////////////////////
 ////////////////////////
 
@@ -162,7 +162,7 @@ client.on('message', async msg => {
 						});
 					} catch (err) {
 						console.error(err);
-						return msg.channel.send('لم يتم اختيار الاغنية');
+						return msg.channel.send('اختار اغنيه عشان ما اجي انيكك');
                     }
                     
 					const videoIndex = parseInt(response.first().content);
@@ -319,7 +319,7 @@ client.on('message', message => {
         .setDescription('**برفكس البوت (!)**')
         .addField('play', 'لتشغيل اغنية')
         .addField('join', 'دخول رومك الصوتي')
-        .addField('disconnect', 'الخروج من رومك الصوتي')
+        .addField('leave', 'الخروج من رومك الصوتي')
         .addField('skip', 'تخطي الأغنية')
         .addField('pause', 'ايقاف الاغنية مؤقتا')
         .addField('resume', 'تكملة الاغنية')
