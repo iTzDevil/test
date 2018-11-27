@@ -20,7 +20,7 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-const prefix = "KsOmk";
+const prefix = "D";
 /////////////////////////
 ////////////////////////
 
@@ -349,7 +349,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : EX Clan ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`Dplay | test`,"http://twitch.tv/Death Shop")
+client.user.setGame(`Dplay | Hi`,"http://twitch.tv/Death Shop")
 client.user.setStatus("dnd")
 });
 
